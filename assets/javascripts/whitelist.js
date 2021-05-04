@@ -1,1 +1,3 @@
-Discourse.Markdown.whiteListTag("div", "style", /.*/);
+(function () {
+  Discourse.Markdown.whiteListTag('div', 'class', /.*/);
+})();
