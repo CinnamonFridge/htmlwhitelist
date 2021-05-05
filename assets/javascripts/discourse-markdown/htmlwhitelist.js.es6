@@ -1,3 +1,3 @@
 export function setup(helper) {
-	helper.whiteList(['div.indent']);
+	helper.allowList(['div.indent']);
 }
